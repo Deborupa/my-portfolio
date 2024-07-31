@@ -140,6 +140,22 @@ header nav a:hover {
 #resume ul + ul {
     margin-top: 20px; /* Add space before Certifications */
 }
+/* Style for links */
+a {
+    color: #77aaff; /* Link color (adjust to your theme) */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Link color on hover */
+a:hover {
+    color: #5591d3; /* Hover color (adjust to your theme) */
+    text-decoration: underline; /* Underline on hover for visibility */
+}
+
+/* Link color when visited */
+a:visited {
+    color: #77aaff; /* Ensure visited links have the same color as regular links */
+}
 
 /* Contact Section */
 #contact ul {
